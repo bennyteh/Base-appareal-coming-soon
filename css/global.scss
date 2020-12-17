@@ -1,0 +1,101 @@
+@import 'variables';
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-image:$background-color;
+    background-repeat: no-repeat;
+}
+
+/* navbar */
+.logo {
+    margin: 8%;
+    img {
+        width: 35%;
+        height:auto;
+    }
+}
+
+/* content */
+.container {
+    display: block;
+    text-align: center;
+    .spacing {
+        padding-bottom: 10%;
+    }
+    .model {
+        img{
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+    }
+    .comingsoon {
+        margin-right: 5%;
+        margin-left: 5%;
+        h1 {
+            font-size: 55px;
+            font-weight: 600;
+            letter-spacing: 11px;
+            color:$darkGrayish-red;
+           span{
+            font-weight: 300;
+            color: $desaturated-red;
+           } 
+        }
+        p {
+            margin-top: 5%;
+            font-size: 16px;
+            font-weight: 400;
+            color: $desaturated-red;
+            line-height: 1.6;
+        }
+    }
+    .emailform {
+        position: relative;
+        form{
+            input{
+                border-radius: 60px;
+                width: 80%;
+                padding: 20px 20px;
+                height: 40px;
+                outline: none;
+                background-image: $background-color;
+            }
+            .op-0-4{
+                opacity: 0.4;
+                border: 2px solid rgb(168, 168, 168);
+            }
+            .op-1 {
+                opacity: 1;
+            }
+            .warning {
+                border: 2px solid rgb(255, 0, 0);
+            }
+            .btn {
+                background-image: $button-gradients;
+                height: 44px;
+                width: 17.5%;
+                border-radius: 60px;
+                outline: none;
+                border: none;
+                position: absolute;
+                right: 10%;
+            }
+            .btn:hover{
+                cursor: pointer;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            }
+        }
+    }
+}
+
+/* placeholder */
+::placeholder{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    color: $desaturated-red;
+}

@@ -1,0 +1,130 @@
+/* color */
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  background-image: linear-gradient(135deg, white, #fff5f5);
+  background-repeat: no-repeat;
+}
+
+/* navbar */
+.logo {
+  margin: 8%;
+}
+
+.logo img {
+  width: 35%;
+  height: auto;
+}
+
+/* content */
+.container {
+  display: block;
+  text-align: center;
+}
+
+.container .spacing {
+  padding-bottom: 10%;
+}
+
+.container .model img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.container .comingsoon {
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.container .comingsoon h1 {
+  font-size: 55px;
+  font-weight: 600;
+  letter-spacing: 11px;
+  color: #413a3a;
+}
+
+.container .comingsoon h1 span {
+  font-weight: 300;
+  color: #ce9797;
+}
+
+.container .comingsoon p {
+  margin-top: 5%;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ce9797;
+  line-height: 1.6;
+}
+
+.container .emailform {
+  position: relative;
+}
+
+.container .emailform form input {
+  border-radius: 60px;
+  width: 80%;
+  padding: 20px 20px;
+  height: 40px;
+  outline: none;
+  background-image: linear-gradient(135deg, white, #fff5f5);
+}
+
+.container .emailform form .op-0-4 {
+  opacity: 0.4;
+  border: 2px solid #a8a8a8;
+}
+
+.container .emailform form .op-1 {
+  opacity: 1;
+}
+
+.container .emailform form .warning {
+  border: 2px solid red;
+}
+
+.container .emailform form .btn {
+  background-image: linear-gradient(135deg, #f8bfbf, #ee8c8c);
+  height: 44px;
+  width: 17.5%;
+  border-radius: 60px;
+  outline: none;
+  border: none;
+  position: absolute;
+  right: 10%;
+}
+
+.container .emailform form .btn:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* placeholder */
+::-webkit-input-placeholder {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  color: #ce9797;
+}
+:-ms-input-placeholder {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  color: #ce9797;
+}
+::-ms-input-placeholder {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  color: #ce9797;
+}
+::placeholder {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  color: #ce9797;
+}
+/*# sourceMappingURL=global.css.map */

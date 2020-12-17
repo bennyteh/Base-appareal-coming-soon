@@ -5,9 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./css/global.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Base Apparel coming soon page</title>
-
+  <script src="./javascript/emailValidation.js"></script>
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -15,18 +17,29 @@
   </style>
 </head>
 <body>
-
-  We're coming soon
-
-  Hello fellow shoppers! We're currently building our new fashion store. 
-  Add your email below to stay up-to-date with announcements and our launch deals.
-
-  Email Address
-  
+  <header class="logo">
+    <img src="./images/logo.svg" alt="Page Logo" width="120">
+  </header>
+  <div class="container">
+    <div class="model spacing">
+      <img src="/images/hero-mobile.jpg" alt="model">
+    </div>
+    <div class="comingsoon spacing">
+      <h1><span>WE'RE</span> COMING SOON</h1>
+      <p>Hello fellow shoppers! We're currently building our new fashion store. 
+        Add your email below to stay up-to-date with announcements and our launch deals.</p>
+    </div>
+    <div class="emailform spacing">
+      <form id="form" method="get">
+        <input type="email" placeholder="Email Address" class="op-0-4">
+        <button class="btn"><img src="./images/icon-arrow.svg" alt="arrow"></button>
+      </form>
+    </div>
+  </div>
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="https://github.com/bennyteh" target="_blank">Benny Teh</a>.
     </p>
   </footer>
 </body>
