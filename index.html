@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Base Apparel coming soon page</title>
-  <script src="./javascript/emailValidation.js"></script>
+  <script defer src="./javascript/emailValidation.js"></script>
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -30,9 +30,10 @@
         Add your email below to stay up-to-date with announcements and our launch deals.</p>
     </div>
     <div class="emailform spacing">
-      <form id="form" method="get">
-        <input type="text" placeholder="Email Address" class="op-0-4" required>
-        <button class="btn" form="form"><img src="./images/icon-arrow.svg" alt="arrow"></button>
+      <form id="form" method="GET">
+        <input type="text" placeholder="Email Address" class="op-0-4" id="email">
+        <button type="submit" class="btn" form="form" ><img src="./images/icon-arrow.svg" alt="arrow"></button>
+        <div id="text"></div>
       </form>
     </div>
   </div>
