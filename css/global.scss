@@ -113,7 +113,7 @@ body {
     color: $desaturated-red;
 }
 
-@media screen and (min-width: 1250px){
+@media screen and (min-width: 1280px){
     .logo {
         margin-left: 20%;
         img {
@@ -125,7 +125,7 @@ body {
         .leftpart{
             background-image: url(../images/bg-pattern-desktop.svg);
             max-height: 100%;
-            min-width: 60%;
+            min-width: 55%;
             .container {
                 .model {
                     img{
@@ -173,7 +173,7 @@ body {
         .rightpart{
             display: block;
             min-height: 100%;
-            min-width: 40%;
+            min-width: 45%;
             img{
                 width: 100%;
                 height: 100%;

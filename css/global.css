@@ -146,7 +146,7 @@ body .rightpart {
   color: #ce9797;
 }
 
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 1280px) {
   .logo {
     margin-left: 20%;
   }
@@ -161,7 +161,7 @@ body .rightpart {
   body .leftpart {
     background-image: url(../images/bg-pattern-desktop.svg);
     max-height: 100%;
-    min-width: 60%;
+    min-width: 55%;
   }
   body .leftpart .container .model img {
     display: none;
@@ -201,7 +201,7 @@ body .rightpart {
   body .rightpart {
     display: block;
     min-height: 100%;
-    min-width: 40%;
+    min-width: 45%;
   }
   body .rightpart img {
     width: 100%;
