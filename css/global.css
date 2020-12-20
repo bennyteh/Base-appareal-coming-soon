@@ -12,6 +12,10 @@ body {
   background-repeat: no-repeat;
 }
 
+body .rightpart {
+  display: none;
+}
+
 /* navbar */
 .logo {
   margin: 8%;
@@ -31,6 +35,10 @@ body {
 
 .container .spacing {
   padding-bottom: 10%;
+}
+
+.container .model {
+  margin-bottom: 10%;
 }
 
 .container .model img {
@@ -136,5 +144,68 @@ body {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 400;
   color: #ce9797;
+}
+
+@media screen and (min-width: 1250px) {
+  .logo {
+    margin-left: 20%;
+  }
+  .logo img {
+    width: 25%;
+  }
+  body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body .leftpart {
+    background-image: url(../images/bg-pattern-desktop.svg);
+    max-height: 100%;
+    min-width: 60%;
+  }
+  body .leftpart .container .model img {
+    display: none;
+  }
+  body .leftpart .container .comingsoon {
+    text-align: left;
+    margin-right: 30%;
+    margin-left: 20%;
+  }
+  body .leftpart .container .comingsoon h1 {
+    width: 30%;
+    font-size: 5rem;
+    line-height: 1.2;
+  }
+  body .leftpart .container .comingsoon p {
+    font-size: 1.125rem;
+  }
+  body .leftpart .container .emailform form {
+    margin-right: 30%;
+    margin-left: 20%;
+  }
+  body .leftpart .container .emailform form input {
+    width: 100%;
+  }
+  body .leftpart .container .emailform form #text {
+    margin-left: 2%;
+  }
+  body .leftpart .container .emailform form .btn {
+    height: 44px;
+    width: 8%;
+    right: 30%;
+  }
+  body .leftpart .container footer .attribution {
+    position: absolute;
+    bottom: 0;
+  }
+  body .rightpart {
+    display: block;
+    min-height: 100%;
+    min-width: 40%;
+  }
+  body .rightpart img {
+    width: 100%;
+    height: 100%;
+  }
 }
 /*# sourceMappingURL=global.css.map */
