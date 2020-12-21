@@ -116,10 +116,10 @@ body .rightpart {
   border: none;
   position: absolute;
   right: 10%;
+  cursor: pointer;
 }
 
 .container .emailform form .btn:hover {
-  cursor: pointer;
   -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
           box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
